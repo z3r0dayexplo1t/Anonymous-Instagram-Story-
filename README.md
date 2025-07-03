@@ -59,7 +59,8 @@ This method works because you're not "viewing a story" in the conventional sense
 
 
 Example: 
-```js module.exports = async function instaFetch(username, id) {
+```js
+ module.exports = async function instaFetch(username, id) {
     try {
 
         let response = await fetch(`https://www.instagram.com/stories/${username}`, {
